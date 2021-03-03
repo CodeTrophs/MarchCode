@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    cout << "Enter the number";
+    int num;
+    cin >> num;
+    
+    if ( num % 5 == 0 && num % 11 == 0)
+      cout << "Number divisible!" << endl;
+    else
+      cout << "Number not divisible!" << endl;
+    return 0;  
+}
