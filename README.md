@@ -1,4 +1,4 @@
-<h1 align="center">March Code</h1>
+<h1 align="center">March Code 2021</h1>
 <p align="center"> <img src="./image/march_code.png" alt="hello" width="500" /></p>
 
 #### Seeing you guys taking interest in coding, and some of you looking for projects to practice, Codetrophs is here with its new programme called the *March code* where you can practice your programming skills through our provided projects based on basic to intermidiate programming.
