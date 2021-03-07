@@ -9,7 +9,7 @@ int main() {
 
     for(int i=num1+1; i<num2; i++)
     {
-        sum=sum+1;
+        sum=sum+i;
         
         if(i%2==0)
             even=even+1;
