@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int n,m,max,sum=0,esum=0;
+    printf("Enter two numbers\n");
+    scanf("%d %d",&n,&m);
+    if(n<m)
+        max=m;
+    else
+        max=n;
+    printf("Sum of all numbers between %d and %d:\n",n,m);
+    for(int i=1;i<max;i++)
+    {
+        if(i>n && i<m || i>m && i<n)
+        {
+            sum+=i;
+        }
+    }
+    printf("%d\n",sum);
+    printf("Sum of all even numbers between %d and %d:\n",n,m);
+    for(int i=1;i<max;i++)
+    {
+        if(i>n && i<m || i>m && i<n)
+        {
+            if(i%2==0)
+            esum+=i;
+        }
+    }
+    printf("%d\n",esum);
+    return 0;
+}
