@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int n,q,l,sum;
+    printf("enter the number\n");
+    scanf("%d",&n);
+    l=n%10;
+    while(n>=10)
+    {
+        n=n/10;
+    }
+    q=n;
+    sum=l+q;
+    printf("Sum of first and last digit is %d\n",sum);
+    return 0;
+}
