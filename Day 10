@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int a,b,max,factor;
+    printf("Enter two numbers\n");
+    scanf("%d %d",&a,&b);
+    if(a>b)
+        max=a;
+    else
+        max=b;
+    for(int i=1;i<max;i++)
+    {
+        if(a%i==0 && b%i==0)
+            factor=i;
+    }
+    printf("HCF of %d and %d is %d\n",a,b,factor);
+    return 0;
+}
