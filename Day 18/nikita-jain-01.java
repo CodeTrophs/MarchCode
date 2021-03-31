@@ -21,9 +21,16 @@ class Main
         for(i=0;i<m;i++)
         {
             for(j=0;j<n;j++)
-            {
                 ar[i][j]=scan.nextInt();
-                System.out.print(ar[i][j]+" ");
+        }
+        for(i=0;i<m;i++)
+        {
+            for(j=0;j<n;j++)
+            {
+                if(j>=i)
+                    System.out.print(ar[i][j]+" ");
+                else
+                    System.out.print("0 ");
             }
             System.out.println();
         }
