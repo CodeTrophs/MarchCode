@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&n); 
     printf("Fibonacci Series :");
     printf("%d %d ",x,y);
-    while ((x+y)<n-2){
+    while ((x+y)<n-1){
         z = x+y;
         printf("%d ",z);
         x = y ;
